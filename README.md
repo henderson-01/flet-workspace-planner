@@ -28,10 +28,10 @@ This repository serves as an **educational starter kit** for developers explorin
 > **Note:** If you don't have `uv` installed, you can install it via:
 > ```bash
 > # macOS / Linux
-> curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
+> curl -LsSf https://astral.sh/uv/install.sh | sh
 > 
 > # Windows (PowerShell)
-> powershell -ExecutionPolicy ByPass -c "irm [https://astral.sh/uv/install.ps1](https://astral.sh/uv/install.ps1) | iex"
+> powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 > ```
 
 ---
@@ -57,12 +57,12 @@ Execute the application directly within the `uv` environment:
 
 ```bash
 # Run via standard Python runner
-uv run main.py
+uv run template.py
 ```
 
 Or run using the Flet CLI (enables Hot Reload during development):
 ```bash
-uv run flet run main.py
+uv run flet run template.py
 ```
 
 ---
@@ -128,7 +128,7 @@ Contributions, issues, and feature requests are always welcome! This project is 
 1. Fork the project.
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
 3. Sync your environment with `uv sync`.
-4. Run and Test the GUI (`uv run main.py`)
+4. Run and Test the GUI (`uv run template.py`)
 5. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 6. Push to the branch (`git push origin feature/AmazingFeature`).
 7. Open a **Pull Request**.
