@@ -93,7 +93,7 @@ Flet builds UIs using nested controls:
 
 ### 2. State & Dynamic Controls
 Adding items to a list on the fly requires updating control collections and calling `page.update()`:
-```python
+```
 def add_task(_):
     if new_task_input.value:
         task_list.controls.append(
@@ -105,7 +105,7 @@ def add_task(_):
 
 ### 3. Micro-Animations & Hover Events
 Hover effects are achieved by listening to the `on_hover` event on a `Container` and tweaking its `scale` property:
-```python
+```
 def hover_lift(e):
     # e.data evaluates to "true" on mouse enter and "false" on mouse leave
     e.control.scale = 1.01 if e.data == "true" else 1.00
