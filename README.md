@@ -144,6 +144,8 @@ Want to practice extending this app yourself? Here are some simple exercises:
 3. **Focus Timer:** Build out the "Focus Timer" menu button to render an active Pomodoro countdown clock.
 4. **Theme Switcher:** Add a toggle in the sidebar to switch between Light Mode and Dark Mode dynamically.
 
+👉 **Ready to tackle one?** Claim an open task on our [Good First Issues board](https://github.com/henderson-01/flet-workspace-planner/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)!
+
 ---
 
 ## 📜 License
